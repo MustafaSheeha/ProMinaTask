@@ -7,11 +7,12 @@ class TextFormFieldWidget extends StatefulWidget {
     super.key,
     this.hintText,
     this.isPassword = false,
+    this.controller,
   });
 
   final String? hintText;
   final bool isPassword;
-
+  final TextEditingController? controller;
   @override
   State<TextFormFieldWidget> createState() => _TextFormFieldWidgetState();
 }
@@ -24,6 +25,7 @@ class _TextFormFieldWidgetState extends State<TextFormFieldWidget> {
     return Padding(
       padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
       child: TextFormField(
+        controller: widget.controller,
         obscureText: widget.isPassword ? _isObscured : false,
         onTapOutside: (event) {
           FocusManager.instance.primaryFocus?.unfocus();
