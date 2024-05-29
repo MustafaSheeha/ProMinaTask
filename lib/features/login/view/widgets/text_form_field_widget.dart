@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:promina_gallery_task/core/constants/app_colors.dart';
 
 import '../../../../core/constants/app_text_styles.dart';
 
@@ -16,6 +17,7 @@ class TextFormFieldWidget extends StatelessWidget {
         decoration: InputDecoration(
           contentPadding: const EdgeInsets.only(left: 20),
           filled: true,
+          fillColor:AppColors.white ,
           enabledBorder: borderDecoration(),
           focusedBorder: borderDecoration(),
           errorBorder: borderDecoration(),

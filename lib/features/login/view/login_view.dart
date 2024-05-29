@@ -28,6 +28,10 @@ class LoginView extends StatelessWidget {
             const CurvedCircleListWidget(),
             const LoveCamerPhotographyWidget(),
             Positioned(
+                top: Get.height * 0.65,
+                left: Get.width * 0.3,
+                child: Image.asset(Assets.imagesRectangle12)),
+            Positioned(
                 top: Get.height * 0.4,
                 left: Get.width * 0.1,
                 child: Image.asset(Assets.imagesRectangle12)),
