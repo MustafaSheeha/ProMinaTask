@@ -11,7 +11,7 @@ abstract class AppPages {
       page: () => const LoginView(),
     ),
     GetPage(
-      name: AppRoutes.login,
+      name: AppRoutes.home,
       page: () => const HomeView(),
     ),
   ];
