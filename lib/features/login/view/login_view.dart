@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'union_widget.dart';
+import 'widgets/union_widget.dart';
 import 'widgets/app_name_and_login_form_widget.dart';
 import 'widgets/curved_circle_list_widget.dart';
 import 'widgets/ellipse_33_widget.dart';
