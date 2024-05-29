@@ -17,8 +17,9 @@ class LoginFormWidget extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 32),
       decoration: BoxDecoration(
-        color: AppColors.white.withOpacity(0.2),
+        color: AppColors.white.withOpacity(0.6),
         borderRadius: BorderRadius.circular(32),
+        backgroundBlendMode: BlendMode.luminosity,
       ),
       child: const Column(
         children: [
