@@ -25,7 +25,10 @@ class LoginFormWidget extends StatelessWidget {
         children: [
           LoginTextWidget(),
           TextFormFieldWidget(hintText: AppStrings.userName),
-          TextFormFieldWidget(hintText: AppStrings.password),
+          TextFormFieldWidget(
+            hintText: AppStrings.password,
+            isPassword: true,
+          ),
           SubmitButtonWidget(),
           VerticalSpace(40)
         ],
