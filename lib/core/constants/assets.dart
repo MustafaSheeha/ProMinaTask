@@ -29,6 +29,10 @@ class Assets {
   /// assets/images/Ellipse33.png
   static const String imagesEllipse33 = "assets/images/Ellipse33.png";
 
+  /// Assets for imagesEllipse62
+  /// assets/images/Ellipse62.png
+  static const String imagesEllipse62 = "assets/images/Ellipse62.png";
+
   /// Assets for imagesLovePhotography
   /// assets/images/love_photography.png
   static const String imagesLovePhotography = "assets/images/love_photography.png";
