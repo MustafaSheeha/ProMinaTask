@@ -15,10 +15,10 @@ class SubmitButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin:
-          const EdgeInsets.only(top: 30, left: 20, right: 20),
+          const EdgeInsets.only(top: 20, left: 20, right: 20),
       padding: const EdgeInsets.symmetric(
         horizontal: 100,
-        vertical: 20,
+        vertical: 10,
       ),
       decoration: const BoxDecoration(
           color: Colors.blue,
