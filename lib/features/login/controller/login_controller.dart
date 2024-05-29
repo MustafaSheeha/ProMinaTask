@@ -28,7 +28,6 @@ class LoginController extends GetxController {
         Get.offAll(() => const HomeView());
       });
     } on ServerException catch (e) {
-      ;
       Get.snackbar(AppStrings.error, e.errorModel.errorMessage.toString());
     }
   }
