@@ -11,4 +11,7 @@ abstract class AppStrings {
   static const camera = 'Camera';
   static const balooThambi2 = 'BalooThambi2';
   static const segoeUI = 'SegoeUI';
+  static const congratulations = 'Congratulations';
+  static const loginSuccessful = 'Login Successful';
+  static const error = 'Error';
 }
