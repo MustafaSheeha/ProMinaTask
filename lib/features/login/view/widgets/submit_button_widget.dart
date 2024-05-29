@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../../../../core/constants/app_colors.dart';
@@ -14,16 +13,14 @@ class SubmitButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin:
-          const EdgeInsets.only(top: 20, left: 20, right: 20),
+      margin: const EdgeInsets.only(top: 20, left: 20, right: 20),
       padding: const EdgeInsets.symmetric(
         horizontal: 100,
         vertical: 10,
       ),
       decoration: const BoxDecoration(
           color: Colors.blue,
-          borderRadius:
-              BorderRadius.all(Radius.circular(10))),
+          borderRadius: BorderRadius.all(Radius.circular(10))),
       child: TextWidget(
         text: AppStrings.submit,
         style: AppTextStyles.segoeUIBold

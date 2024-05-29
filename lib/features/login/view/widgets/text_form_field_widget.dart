@@ -17,7 +17,7 @@ class TextFormFieldWidget extends StatelessWidget {
         decoration: InputDecoration(
           contentPadding: const EdgeInsets.only(left: 20),
           filled: true,
-          fillColor:AppColors.white ,
+          fillColor: AppColors.white,
           enabledBorder: borderDecoration(),
           focusedBorder: borderDecoration(),
           errorBorder: borderDecoration(),
