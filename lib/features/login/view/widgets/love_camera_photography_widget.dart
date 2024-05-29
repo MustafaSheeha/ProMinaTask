@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../core/constants/assets.dart';
+import '../../../../core/constants/assets.dart';
 
 class LoveCamerPhotographyWidget extends StatelessWidget {
   const LoveCamerPhotographyWidget({

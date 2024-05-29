@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
-import '../../../core/constants/assets.dart';
+import '../../../../core/constants/assets.dart';
 import 'curved_circle_widget.dart';
 
 class CurvedCircleListWidget extends StatelessWidget {
