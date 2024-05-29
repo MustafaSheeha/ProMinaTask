@@ -17,20 +17,26 @@ class LoginView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Stack(
-          children: [
-            const GradientContainer(),
-            const CurvedCircleListWidget(),
-            const LoveCamerPhotographyWidget(),
-            Rectangle12Widget(top: Get.height * 0.65, left: Get.width * 0.35),
-            Rectangle12Widget(top: Get.height * 0.4, left: Get.width * 0.1),
-            const Ellipse62Wiget(),
-            PolygonWidget(top: Get.height * 0.47, left: Get.width * 0.1),
-            PolygonWidget(top: Get.height * 0.47, left: Get.width * 0.16),
-            const Ellipse33Widget(),
-            const UnionWidget(),
-            const AppNameAndLoginFormWidget()
-          ],
+        child: ListView(
+          physics: const BouncingScrollPhysics(),
+          children: [SizedBox(
+            height: Get.height,
+            child: Stack(
+              children: [
+                const GradientContainer(),
+                const CurvedCircleListWidget(),
+                const LoveCamerPhotographyWidget(),
+                Rectangle12Widget(top: Get.height * 0.65, left: Get.width * 0.35),
+                Rectangle12Widget(top: Get.height * 0.4, left: Get.width * 0.1),
+                const Ellipse62Wiget(),
+                PolygonWidget(top: Get.height * 0.47, left: Get.width * 0.1),
+                PolygonWidget(top: Get.height * 0.47, left: Get.width * 0.16),
+                const Ellipse33Widget(),
+                const UnionWidget(),
+                const AppNameAndLoginFormWidget()
+              ],
+            ),
+          ),]
         ),
       ),
     );
