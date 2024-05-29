@@ -24,5 +24,9 @@ class Assets {
   /// Assets for imagesCurvedCirclesVector2014
   /// assets/images/curved_circles/Vector_2014.png
   static const String imagesCurvedCirclesVector2014 = "assets/images/curved_circles/Vector_2014.png";
+
+  /// Assets for imagesLovePhotography
+  /// assets/images/love_photography.png
+  static const String imagesLovePhotography = "assets/images/love_photography.png";
 }
 
