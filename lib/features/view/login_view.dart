@@ -5,6 +5,7 @@ import 'package:promina_gallery_task/core/constants/app_strings.dart';
 import 'package:promina_gallery_task/core/constants/app_text_styles.dart';
 import 'package:promina_gallery_task/core/constants/assets.dart';
 
+import '../../core/widgets/text_widget.dart';
 import 'widgets/curved_circle_list_widget.dart';
 import 'widgets/curved_circle_widget.dart';
 import 'widgets/gradient_container.dart';
@@ -26,18 +27,16 @@ class LoginView extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
-                  AppStrings.myGellary,
-                  textAlign: TextAlign.center,
+                TextWidget(
+                  text: AppStrings.myGellary,
                   style: AppTextStyles.segoeUIBold.copyWith(fontSize: 32),
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Column(
                     children: [
-                      Text(
-                        AppStrings.login,
-                        textAlign: TextAlign.center,
+                      TextWidget(
+                        text: AppStrings.login,
                         style: AppTextStyles.segoeUIBold.copyWith(fontSize: 30),
                       )
                     ],
