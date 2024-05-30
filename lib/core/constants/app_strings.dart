@@ -14,4 +14,6 @@ abstract class AppStrings {
   static const congratulations = 'Congratulations';
   static const loginSuccessful = 'Login Successful';
   static const error = 'Error';
+  static const mina = 'Mina';
+  static const noImagesAvailable = 'No Images Available';
 }

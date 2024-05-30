@@ -8,5 +8,6 @@ abstract class ApiKey {
   static const createdAt='created_at';
   static const updatedAt='updated_at';
   static const token='token';
+  static const img='img';
   static const errorMessage='error_message';
 }
