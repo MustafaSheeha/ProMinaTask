@@ -8,4 +8,5 @@ abstract class AppColors {
   static const orchid = Color(0xffEA94D7);
   static const white = Color(0xffffffff);
   static const black = Color(0xff000000);
+  static const darkGrey = Color(0xff4A4A4A);
 }
