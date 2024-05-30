@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:promina_gallery_task/core/constants/app_colors.dart';
+import 'package:promina_gallery_task/core/constants/assets.dart';
+import '../../../core/widgets/vertical_space.dart';
+import 'widgets/image_gellary_widget.dart';
 import 'widgets/logout_upload_row_widget.dart';
 import 'widgets/user_profile_pic_widget.dart';
 import 'widgets/welcome_user_widget.dart';
@@ -31,7 +34,9 @@ class HomeView extends StatelessWidget {
               UserProfilePicWidget(),
             ],
           ),
-          LogoutUploadRowWidget()
+          LogoutUploadRowWidget(),
+          VerticalSpace(10),
+          ImageGellaryWidget()
         ],
       ),
     )));
