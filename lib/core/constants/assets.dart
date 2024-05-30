@@ -1,6 +1,10 @@
 class Assets {
   Assets._();
   
+  /// Assets for imagesCamera
+  /// assets/images/camera.png
+  static const String imagesCamera = "assets/images/camera.png";
+
   /// Assets for imagesCurvedCirclesVector2009
   /// assets/images/curved_circles/Vector_2009.png
   static const String imagesCurvedCirclesVector2009 = "assets/images/curved_circles/Vector_2009.png";
@@ -32,6 +36,10 @@ class Assets {
   /// Assets for imagesEllipse62
   /// assets/images/Ellipse62.png
   static const String imagesEllipse62 = "assets/images/Ellipse62.png";
+
+  /// Assets for imagesGallery
+  /// assets/images/gallery.png
+  static const String imagesGallery = "assets/images/gallery.png";
 
   /// Assets for imagesLeftward
   /// assets/images/leftward.png
