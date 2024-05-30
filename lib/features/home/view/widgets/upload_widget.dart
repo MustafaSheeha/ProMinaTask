@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:promina_gallery_task/core/constants/assets.dart';
 import 'package:promina_gallery_task/core/widgets/vertical_space.dart';
+import 'package:promina_gallery_task/features/home/controller/home_controller.dart';
 
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/constants/app_strings.dart';
@@ -17,6 +18,7 @@ class UploadWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    HomeController homeController = Get.find<HomeController>();
     return TextButton(
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all(AppColors.white),
@@ -43,7 +45,12 @@ class UploadWidget extends StatelessWidget {
                       ),
                       onPressed: () async {
                         await ImagePicker()
-                            .pickImage(source: ImageSource.gallery);
+                            .pickImage(source: ImageSource.gallery)
+                            .then((value) {
+                          if (value != null) {
+                            homeController.pickImage(value);
+                          }
+                        });
                       },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -67,7 +74,13 @@ class UploadWidget extends StatelessWidget {
                       ),
                       onPressed: () async {
                         await ImagePicker()
-                            .pickImage(source: ImageSource.camera);
+                            .pickImage(source: ImageSource.camera)
+                            .then((value) {
+                          if (value != null) {
+                            homeController.pickImage(value);
+                            homeController.uploadPicture();
+                          }
+                        });
                       },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,

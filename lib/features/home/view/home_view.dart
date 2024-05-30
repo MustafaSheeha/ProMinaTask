@@ -36,7 +36,8 @@ class HomeView extends StatelessWidget {
           ),
           LogoutUploadRowWidget(),
           VerticalSpace(10),
-          ImageGellaryWidget()
+          
+          // ImageGellaryWidget()
         ],
       ),
     )));
