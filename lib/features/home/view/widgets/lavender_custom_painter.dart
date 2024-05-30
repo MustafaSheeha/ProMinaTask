@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+
+import 'package:flutter/material.dart';
 
 class LavenderCustomPainter extends CustomPainter {
   @override
@@ -48,4 +49,3 @@ class LavenderCustomPainter extends CustomPainter {
   }
 }
 
-class AppColors {}

@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:promina_gallery_task/core/constants/app_colors.dart';
-import 'package:promina_gallery_task/core/constants/app_strings.dart';
-import 'package:promina_gallery_task/core/constants/app_text_styles.dart';
-import 'package:promina_gallery_task/core/constants/assets.dart';
-import 'package:promina_gallery_task/core/widgets/text_widget.dart';
-import 'package:promina_gallery_task/core/widgets/vertical_space.dart';
-
-import 'widgets/lavender_custom_painter.dart';
+import 'widgets/logout_upload_row_widget.dart';
 import 'widgets/user_profile_pic_widget.dart';
 import 'widgets/welcome_user_widget.dart';
 
@@ -18,7 +12,13 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SafeArea(
-            child: SizedBox(
+            child: Container(
+      decoration: const BoxDecoration(
+          gradient: LinearGradient(
+        colors: [AppColors.lavenderBlush, AppColors.white],
+        begin: Alignment.topLeft,
+        end: Alignment.bottomLeft,
+      )),
       height: Get.height,
       width: Get.width,
       child: const Column(
@@ -30,7 +30,8 @@ class HomeView extends StatelessWidget {
               WelcomeUserWidget(),
               UserProfilePicWidget(),
             ],
-          )
+          ),
+          LogoutUploadRowWidget()
         ],
       ),
     )));
