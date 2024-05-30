@@ -1,16 +1,8 @@
 # promina_gallery_task
 
-A new Flutter project.
+#My Gallery App
+My Gallery App is a simple Flutter application for viewing images in a grid layout.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1717048908](https://github.com/MustafaSheeha/ProMinaTask/assets/147057845/76220f8e-72e0-4013-ad43-c898bbec040a)
+![Screenshot_1717048871](https://github.com/MustafaSheeha/ProMinaTask/assets/147057845/ad03789a-9965-4aad-8504-ca914a20b009)
