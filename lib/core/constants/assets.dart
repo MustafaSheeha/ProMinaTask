@@ -48,5 +48,9 @@ class Assets {
   /// Assets for imagesUnion
   /// assets/images/Union.png
   static const String imagesUnion = "assets/images/Union.png";
+
+  /// Assets for imagesUserPic
+  /// assets/images/userPic.png
+  static const String imagesUserPic = "assets/images/userPic.png";
 }
 
