@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../../../../core/constants/app_colors.dart';
@@ -14,21 +13,18 @@ class UploadWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 45,
-      width: 120,
-      padding: const EdgeInsets.all(9),
-      decoration: BoxDecoration(
-        color: AppColors.white,
-        borderRadius: BorderRadius.circular(16),
+    return TextButton(
+      style: ButtonStyle(
+        backgroundColor: WidgetStateProperty.all(AppColors.white),
       ),
+      onPressed: () {},
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           const UploadIconWidget(),
           TextWidget(
             text: AppStrings.upload,
-            style: AppTextStyles.balooThambi2.copyWith(fontSize: 20),
+            style: AppTextStyles.balooThambi2.copyWith(fontSize: 20,color: AppColors.darkGrey),
           )
         ],
       ),
